@@ -1,4 +1,4 @@
-FROM node:16
+FROM mcr.microsoft.com/devcontainers/javascript-node:16
 
 WORKDIR /usr/client/
 COPY package.json package-lock.json ./
